@@ -1,0 +1,145 @@
+.Presentacion__header__container {
+    position: relative;
+    width: 100%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/geagestionsostenible-test.appspot.com/o/presentacion.jpg?alt=media&token=caa46c50-7cef-4a75-8924-b9e333b24673");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Presentacion__header__caja {
+    position: relative;
+    width: var(--widthDesk);
+    left: var(--leftDesk);
+}
+.Presentacion__headerText {
+    font-weight: var(--light);
+    padding: 40px 0;
+    color: var(--marron);
+
+}
+.Presentacion__headerText span {
+    font-weight: var(--bold);
+}
+.Presentacion__headerText__container {
+    position: relative;
+    left: var(--marginLeft);
+    width: 70%;
+}
+.Presentacion__cuerpo__container {
+    width: 100%;
+    background-color: var(--blanco);
+}
+.Presentacion__cuerpo__caja {
+    position: relative;
+    width: var(--widthDesk);
+    left: var(--leftDesk);
+}
+.Presentacion__textos__container {
+    padding-top: 40px;
+    position: relative;
+    left: var(--marginLeft);
+    width: 70%;
+}
+.textoVerde {
+    color: var(--verde);
+}
+.brAlto {
+    margin-top: 20px;
+}
+/*Que proponemos*/
+.QueProponemos__header__container {
+    background-color: var(--celeste);
+    padding-bottom: 110px;
+}
+.QueProponemos__headerText__container {
+    text-align: center;
+
+}
+.QueProponemos__headerText__container p {
+    font-style: italic;
+    /* font-size: 28px; */
+    font-size: clamp(10px, 2vw, 28px);
+    line-height: 40px;
+}
+.QueProponemos__botones__container {
+    position: relative;
+    width: calc(var(--widthDesk) - 40px);
+    left: var(--leftDesk);
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: start;
+    padding: 0 20px;
+}
+/*Seccion1*/
+.Seccion1__header__container {
+    position: relative;
+    width: 100%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/geagestionsostenible-test.appspot.com/o/medicion_de_impacto.jpg?alt=media&token=9be162cd-5c13-4660-ac6d-2571b2398895");
+    background-repeat: no-repeat;
+    background-position: center -300px ;
+    background-size: cover;
+}
+.Seccion1__header__caja {
+    position: relative;
+    width: var(--widthDesk);
+    left: var(--leftDesk);
+}
+.Seccion1__headerText {
+    font-weight: var(--bold);
+    padding: 80px 0;
+    color: var(--marron);
+    font-size: 54px;
+    font-size: clamp(30px 2vw 54px); 
+    line-height: 70px;
+}
+.Seccion1__headerText__container {
+    position: relative;
+    left: var(--marginLeft);
+    width: 70%;
+}
+.Seccion1__cuerpo__container {
+    width: 100%;
+    background-color: var(--blanco);
+}
+.Seccion1__cuerpo__caja {
+    position: relative;
+    width: var(--widthDesk);
+    left: var(--leftDesk);
+}
+.Seccion1__textos__container {
+    padding-top: 40px;
+    position: relative;
+    left: var(--marginLeft);
+    width: 70%;
+}
+.celeste {
+    color: var(--celeste)
+}
+.Flecha__contenedor {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    z-index: 400;
+    animation: bounce2 4s ease infinite;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+.Flecha__contenedor:hover {
+    cursor: pointer;
+}
+
+.Flecha__contenedor.visible {
+    opacity: 1; 
+  }
+
+  @keyframes bounce2 {
+      0%, 10%, 25%, 40%, 50% {transform: translateY(0);}
+      20% {transform: translateY(-20px);}
+      30% {transform: translateY(-10px);}
+
+}

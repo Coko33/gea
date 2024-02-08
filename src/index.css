@@ -1,3 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;400;700&family=Chivo+Mono:ital,wght@0,300;1,100&family=Roboto:wght@400;500&display=swap');
+
+*{
+  --fontTitulo: 'Stick No Bills', sans-serif;;
+  --fontNormal: 'Roboto', sans-serif;
+  --fontDestacado: 'Chivo Mono', monospace;
+  --sizeTitulo: 80px;
+  --sizeNormal: 16px;
+  --sizeDestacado: 20px;
+  --lhTitulo: 80px;
+  --lhNormal: 18px;
+  --lhDestacado: 22px;
+  --bold: 700;
+  --light: 300;
+  --marron: #7E3411;
+  --celeste: #86BCD9;
+  --verde: #76BF87;
+  --negro: #0D170D;
+  --blanco: #FFFFFF;
+  --heightNavDesk: 140px;
+  --heightNavMob: 80px;
+  --leftDesk: 12%;
+  --leftMob: 30px;
+  --widthDesk: 76%;
+  --widthMob: calc(100% - 60px);
+  --marginLeft: 30%;
+}
+.textTitulo {
+  font-size: var(--sizeTitulo);
+  font-size: clamp(66px, 5.2vw, var(--sizeTitulo));
+  font-family: var(--fontTitulo);
+  line-height: var(--lhTitulo);
+  font-size: clamp(70px, 5.7vw, var(--lhTitulo));
+  margin: 0;
+}
+.textDestacado {
+  font-size: var(--sizeDestacado);
+  font-family: var(--fontDestacado);
+  line-height: var(--lhDestacado);
+  margin: 0;
+}
+.textDestacado2 {
+  font-size: var(--sizeDestacado);
+  font-family: var(--fontNormal);
+  line-height: var(--lhDestacado);
+  margin: 0;
+}
+.textNormal {
+  font-size: var(--sizeNormal);
+  font-family: var(--fontNormal);
+  line-height: var(--lhNormal); 
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +61,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--verde);
 }
 
 code {

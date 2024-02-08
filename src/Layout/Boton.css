@@ -1,0 +1,48 @@
+.Boton__iconYText__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 10%;
+}
+.Boton__container {
+    position: relative;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-color: var(--marron);
+    border-radius: 50%;
+}
+.Boton__iconYText__container h3 {
+    position: absolute;
+    top: 100%;
+    margin-top: 10px;
+    font-size: clamp(10px, 1.5vw, 20px);
+    line-height: clamp(10px, 1.6vw, 22px);
+    text-align: center;
+}
+.Boton__icon__container {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+}
+.Boton__icon__container svg {
+    position: relative;
+    width: 66.66%;
+}
+
+.Boton__text__container {
+    color: var(--marron);
+    margin-bottom: 20px;
+}
+.off {
+    opacity: 0.5;
+}
+.Boton__iconYText__container:hover {
+    opacity: 1;
+    cursor: pointer;
+}
