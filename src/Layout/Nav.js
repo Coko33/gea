@@ -1,5 +1,6 @@
 import "./Nav.css"
 import Icon01 from "../svg/Icon01"
+import LogoProvisorio from "../svg/LogoProvisorio"
 import {useEffect, useState} from "react"
 
 export default function Nav({ scrollToSection }) {
@@ -8,9 +9,14 @@ export default function Nav({ scrollToSection }) {
         <>
             <div id="seccion0" className="nav__cnt">
                 <div className="nav__caja">
-                    <div className="navLogo__cnt">
-                        <Icon01></Icon01>
-                        <p className="textNormal textLogo">GEA</p>
+                    <div className="containerLogos">
+                        <div className="navLogo__cnt logo1">
+                            <Icon01></Icon01>
+                            <p className="textNormal textLogo">GEA</p>
+                        </div>
+                        <div className="navLogo__cnt logo2">
+                            <LogoProvisorio></LogoProvisorio>
+                        </div>
                     </div>
                     <div className="navItems__cnt">
                         <div className="navItem__cnt"  onClick={() => scrollToSection('seccion1')}>

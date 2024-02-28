@@ -12,11 +12,56 @@
     justify-content: space-between;
     align-items: center;
 }
-.navLogo__cnt {
+.containerLogos{
     position: relative;
+    width: 300px;
+    height: 70px;
+}
+.navLogo__cnt {
+    position: absolute;
     display: flex;
     width: 300px;
     height: 70px;
+}
+.logo1 {
+    animation: logo1anim;
+    -webkit-animation: logo1anim  10s infinite;
+}
+.logo2 {
+    animation: logo2anim;
+    -webkit-animation: logo2anim  10s infinite;
+}
+@keyframes  logo1anim {
+    0%, 100% {
+        opacity: 1;
+        visibility: visible;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    90% {
+        opacity: 0
+    }
+}
+@keyframes  logo2anim { 
+    0%, 100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        visibility: visible;
+    }
+    90% {
+        opacity: 1;
+    }
 }
 .textLogo {
     color: var(--marron);

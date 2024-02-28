@@ -1,0 +1,73 @@
+.Footer__cnt {
+    background-color: var(--marron);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-right: 9vw;
+}
+.Footer__cntIzq, .Footer__cntDer {
+    width: 35%
+}
+.Footer__logo__cnt{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 70px;
+    left: 9vw;
+}
+.Footer__redes__cnt {
+    display: flex;
+    position: relative;
+    height: 30px;
+    left: 9vw;
+}
+.Footer__redesItem__cnt{
+    width: 30px;
+    margin-right: 10px;
+}
+.Footer__mail__p, .Footer__anio__p {
+    position: relative;
+    padding-top: 5px;
+    left: 9vw;
+    color: var(--verde);
+    font-size: clamp(12px, 1.5vw, 20px);
+}
+.Footer__navItems__cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.Footer__navItems__cnt {
+    position: relative;
+    top: 45px;
+    display: flex;
+    gap: 5px;
+    height: 48px;
+}
+.Footer__navItem__cnt {
+    position: relative;
+}
+.Footer__textMenu {
+    color: var(--verde);
+    font-size: clamp(12px, 1.5vw, 20px);
+    line-height: clamp(24px, 3vw, 40px);
+    width: fit-content;
+    background: transparent; 
+    padding: 0 10px; 
+    -webkit-transition: color .4s linear; 
+    -moz-transition: color .4s linear; 
+    -ms-transition: color .4s linear; 
+    -o-transition: color .4s linear; 
+    transition: color .4s linear; 
+}
+
+.Footer__textMenu:hover { 
+    cursor: pointer;
+    background: var(--verde); 
+    color: var(--marron); 
+    -webkit-transition: color .4s linear; 
+    -moz-transition: color .4s linear; 
+    -ms-transition: color .4s linear; 
+    -o-transition: color .4s linear; 
+    transition: color .4s linear; 
+}

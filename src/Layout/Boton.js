@@ -1,7 +1,6 @@
 import Icon02 from "../svg/Icon02"
 import "./Boton.css"
 export default function Boton({textHtml, pressed, selected, onClick}) {
-    console.log(pressed)
     return(
         <div className={`Boton__iconYText__container ${selected ? "" : "off"}`} onClick={onClick}>
             <div className="Boton__container">

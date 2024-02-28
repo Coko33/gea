@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;400;700&family=Chivo+Mono:ital,wght@0,300;1,100&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;400;700&family=Chivo+Mono:ital,wght@0,300;1,100&family=Roboto:wght@100;400;500&display=swap');
 
 *{
   --fontTitulo: 'Stick No Bills', sans-serif;;
@@ -12,6 +12,7 @@
   --lhDestacado: 22px;
   --bold: 700;
   --light: 300;
+  --thin: 100;
   --marron: #7E3411;
   --celeste: #86BCD9;
   --verde: #76BF87;
